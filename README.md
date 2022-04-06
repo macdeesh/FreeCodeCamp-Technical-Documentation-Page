@@ -59,5 +59,5 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
   
 ## Author
 
-- Github - [Macdeesh](https://github.com/macdeesh)
-- Twitter - [@Macdiish](https://twitter.com/Macdiish)
+ - Github - [Macdeesh](https://github.com/macdeesh)
+ - Twitter - [@Macdiish](https://twitter.com/Macdiish)
