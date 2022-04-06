@@ -43,7 +43,7 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
   }
   ```
   
-- To target a list inside a section, i used: ``` #sections li ```
+- To target a list inside a section, i used: ``` #sections li { ```
 
 - If I want the scrollbar to appear I have to use ```overflow: auto;``` :
 
