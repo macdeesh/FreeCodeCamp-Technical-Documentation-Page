@@ -14,7 +14,7 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
 
 - I have to set the viewport and default zoom if media queries work on desktop and not on mobile devices :
 
-  ```html <meta name="viewport" content="width=device-width, initial-scale=1"/>```
+  ```<meta name="viewport" content="width=device-width, initial-scale=1"/>```
   
 - The HTML ```<code>``` element  is used to define a piece of computer code. The content inside is displayed in the browser's default font.
   The ```<code>``` element does not preserve extra whitespace and line-breaks.To fix this, you can put the ```<code>``` element inside a ```<pre>``` element.
@@ -40,7 +40,8 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
   position: fixed;
   height: 100%;
   grid-area: navbar;
-  }```
+  }
+  ```
   
 - To target a list inside a section, i used: ``` #sections li ```
 
@@ -54,7 +55,8 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
   width: 100%;
   max-height: 200px;
   border: none;
-  }```
+  }
+  ```
   
 ##### Author
 
