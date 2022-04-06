@@ -1,16 +1,14 @@
 # FreeCodeCamp-Technical-Documentation-Page
 JS Technical Documentation Page
 
-## FreeCodeCamp - Product Landing Page
-
 This is a solution to the [Build a Technical Documentation Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page). 
 
-### Links
+## Links
 
 - Solution URL: [https://github.com/macdeesh/FreeCodeCamp-Technical-Documentation-Page]
 - Live Site URL: [https://macdeesh.github.io/FreeCodeCamp-Technical-Documentation-Page/]
 
-#### What I learned
+## What I learned
 
 - I have to set the viewport and default zoom if media queries work on desktop and not on mobile devices :
 
@@ -58,7 +56,7 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
   }
   ```
   
-##### Author
+## Author
 
 - Github - [Macdeesh](https://github.com/macdeesh)
 - Twitter - [@Macdiish](https://twitter.com/Macdiish)
