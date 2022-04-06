@@ -23,9 +23,9 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
    .features-grid {
       display: grid; 
       grid-template-columns: minmax(350px , auto) 1fr; 
-      <!--  The grid-template-columns CSS property defines the line names and track sizing functions of the grid columns -->
+<!--  The grid-template-columns CSS property defines the line names and track sizing functions of the grid columns; -->
       grid-template-areas: "navbar mainContent";
-      <!--  Each section will have one of the two areas names: grid-area: navbar; and grid-area: mainContent; -->
+<!--   Each section will have one of the two areas names: grid-area: navbar; and grid-area: mainContent; -->
       grid-gap: 0.5rem;   
    }
    ```
