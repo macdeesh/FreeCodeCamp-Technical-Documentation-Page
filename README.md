@@ -20,25 +20,25 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
 - To divide the whole webpage into two sections, i used the display Grid:
 
  ```css
- .features-grid {
-   display: grid; 
-   grid-template-columns: minmax(350px , auto) 1fr; 
-   <!--  The grid-template-columns CSS property defines the line names and track sizing functions of the grid columns -->
-   grid-template-areas: "navbar mainContent";
-   <!--  Each section will have one of the two areas names: grid-area: navbar; and grid-area: mainContent; -->
-   grid-gap: 0.5rem;   
+   .features-grid {
+      display: grid; 
+      grid-template-columns: minmax(350px , auto) 1fr; 
+      <!--  The grid-template-columns CSS property defines the line names and track sizing functions of the grid columns -->
+      grid-template-areas: "navbar mainContent";
+      <!--  Each section will have one of the two areas names: grid-area: navbar; and grid-area: mainContent; -->
+      grid-gap: 0.5rem;   
    }
    ```
   
 - For the navigation bar :
   
   ```css
-  .navigation-bar {
-  border-right: 5px solid;
-  position: fixed;
-  height: 100%;
-  grid-area: navbar;
-  }
+   .navigation-bar {
+      border-right: 5px solid;
+      position: fixed;
+      height: 100%;
+      grid-area: navbar;
+   }
   ```
   
 - To target a list inside a section, i used: ``` #sections li { ```
@@ -46,14 +46,14 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
 - If I want the scrollbar to appear I have to use ```overflow: auto;``` :
 
   ```css
-  .navigation-bar {
-  display: block;
-  overflow: auto;
-  position: relative;
-  width: 100%;
-  max-height: 200px;
-  border: none;
-  }
+   .navigation-bar {
+      display: block;
+      overflow: auto;
+      position: relative;
+      width: 100%;
+      max-height: 200px;
+      border: none;
+   }
   ```
   
 ## Author
