@@ -14,24 +14,23 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
 
 - I have to set the viewport and default zoom if media queries work on desktop and not on mobile devices :
 
-  ```html
- <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  ```
+  ```html <meta name="viewport" content="width=device-width, initial-scale=1"/>```
   
 - The HTML ```<code>``` element  is used to define a piece of computer code. The content inside is displayed in the browser's default font.
   The ```<code>``` element does not preserve extra whitespace and line-breaks.To fix this, you can put the ```<code>``` element inside a ```<pre>``` element.
 
 - To divide the whole webpage into two sections, i used the display Grid:
 
-  ```css
+ ```css
  .features-grid {
    display: grid; 
    grid-template-columns: minmax(350px , auto) 1fr; 
    <!--  The grid-template-columns CSS property defines the line names and track sizing functions of the grid columns -->
-   grid-gap: 0.5rem;
    grid-template-areas: "navbar mainContent";
    <!--  Each section will have one of the two areas names: grid-area: navbar; and grid-area: mainContent; -->
-  }  ```
+   grid-gap: 0.5rem;   
+   }
+   ```
   
 - For the navigation bar :
   
@@ -55,7 +54,7 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
   width: 100%;
   max-height: 200px;
   border: none;
- }```
+  }```
   
 ##### Author
 
