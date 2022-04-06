@@ -18,8 +18,8 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   ```
   
-- The HTML <code> element  is used to define a piece of computer code. The content inside is displayed in the browser's default font.
-  The <code> element does not preserve extra whitespace and line-breaks.To fix this, you can put the <code> element inside a <pre> element.
+- The HTML ```<code>``` element  is used to define a piece of computer code. The content inside is displayed in the browser's default font.
+  The ```<code>``` element does not preserve extra whitespace and line-breaks.To fix this, you can put the ```<code>``` element inside a ```<pre>``` element.
 
 - To divide the whole webpage into two sections, i used the display Grid:
 
@@ -31,8 +31,7 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
    grid-gap: 0.5rem;
    grid-template-areas: "navbar mainContent";
    <!--  Each section will have one of the two areas names: grid-area: navbar; and grid-area: mainContent; -->
-  } 
-  ```
+  }  ```
   
 - For the navigation bar :
   
@@ -42,8 +41,7 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
   position: fixed;
   height: 100%;
   grid-area: navbar;
-  }
-  ```
+  }```
   
 - To target a list inside a section, i used: ``` #sections li ```
 
@@ -57,8 +55,7 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
   width: 100%;
   max-height: 200px;
   border: none;
- }
- ```
+ }```
   
 ##### Author
 
