@@ -23,9 +23,7 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
    .features-grid {
       display: grid; 
       grid-template-columns: minmax(350px , auto) 1fr; 
-      ``````
       grid-template-areas: "navbar mainContent";
-      ```Each section will have one of the two areas names: grid-area: navbar; and grid-area: mainContent```
       grid-gap: 0.5rem;   
    }
    ```
